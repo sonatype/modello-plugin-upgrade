@@ -11,6 +11,7 @@
 	<artifactId>modello-plugin-upgrade</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
+  <name>Modello Upgrade Generator Plugin</name>
   
   <properties>
     <modelloVersion>1.0-alpha-21</modelloVersion>
