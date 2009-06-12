@@ -7,11 +7,11 @@ import java.io.Writer;
 import org.codehaus.modello.ModelloException;
 import org.codehaus.modello.model.ModelClass;
 import org.codehaus.modello.model.Version;
-import org.codehaus.modello.plugin.AbstractModelloGenerator;
+import org.codehaus.modello.plugin.java.AbstractJavaModelloGenerator;
 import org.codehaus.plexus.util.WriterFactory;
 
 public abstract class AbstractConversionGenerator
-    extends AbstractModelloGenerator
+    extends AbstractJavaModelloGenerator
 {
 
     protected Writer getFileWriter( File dir, String name )
