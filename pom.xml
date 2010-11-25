@@ -8,7 +8,7 @@
   </parent>
 
   <artifactId>modello-plugin-upgrade</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
   <packaging>maven-plugin</packaging>
   <name>Modello Upgrade Generator Plugin</name>
 
@@ -63,4 +63,10 @@
       </plugin>
     </plugins>
   </build>
+
+  <scm>
+    <connection>scm:svn:http://svn.sonatype.org/plugins/tags/modello-plugin-upgrade-1.1</connection>
+    <developerConnection>scm:svn:https://svn.sonatype.org/plugins/tags/modello-plugin-upgrade-1.1</developerConnection>
+    <url>http://svn.sonatype.org/plugins/tags/modello-plugin-upgrade-1.1</url>
+  </scm>
 </project>
